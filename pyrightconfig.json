@@ -1,0 +1,19 @@
+{
+  "typeCheckingMode": "basic",
+  "stubPath": "typings",
+  "extraPaths": [
+    "typings"
+  ],
+  "diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none",
+    "reportMissingImports": "none",
+    "reportIncompatibleMethodOverride": "none",
+    "reportOverlappingOverload": "none"
+  },
+  "exclude": [
+    "**/__pycache__",
+    "**/.venv/**",
+    "**/venv/**",
+    "**/.cursor/**"
+  ]
+}
